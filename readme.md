@@ -1,9 +1,9 @@
 # Design Patterns
 
 * These repository follows the 23 Design Patterns stated by Gang Of Four. These patterns are divided in the following categories:
-    - Creational: Different ways to create objects;
-    - Structural: The relationship between objects;
-    - Behavioral: Interaction between objects;
+    - **Creational**: Different ways to create objects;
+    - **Structural**: The relationship between objects;
+    - **Behavioral**: Interaction between objects;
 
 
 ## Essentials - OOP features
