@@ -9,4 +9,6 @@
     - **Context**: The Context maintains a reference to one of the concrete strategies and communicates with this object only via the strategy interface.
     - **Strategy**: The Strategy interface is common to all concrete strategies. It declares a method the context uses to execute a strategy.
 
+- State pattern can be considered as an extension of Strategy. Both patterns are based on composition: they change the behavior of the context by delegating some work to helper objects. Strategy makes these objects completely independent and unaware of each other. However, State doesn’t restrict dependencies between concrete states, letting them alter the state of the context at will.
+
 - More info: [Strategy](https://refactoring.guru/design-patterns/strategy)
