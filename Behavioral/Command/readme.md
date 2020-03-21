@@ -1,7 +1,6 @@
 # The problem
 - Behavioral pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event latter time. 
-- The aim of Command pattern is decoupling the invoker form the receiver. With this structure, the invoker can talk to the receiver without being aware of it.
-- It's behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. 
+- The aim of Command pattern is decoupling the invoker from the receiver. With this structure, the invoker can talk to the receiver without being aware of it.
 - This pattern makes our code extensible as we can add new commands without changing existing code. However, increases in the number of classes for each individual command.
 
 - It defines 3 concepts:
