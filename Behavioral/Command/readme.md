@@ -1,7 +1,7 @@
 # The problem
-- Behavioral pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event latter time. 
-- The aim of Command pattern is decoupling the invoker from the receiver. With this structure, the invoker can talk to the receiver without being aware of it.
-- This pattern makes our code extensible as we can add new commands without changing existing code. However, increases in the number of classes for each individual command.
+- The behavioral pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event latter time. 
+- The aim of the Command pattern is decoupling the invoker from the receiver. With this structure, the invoker can talk to the receiver without being aware of it.
+- This pattern makes our code extensible as we can add new commands without changing the existing code. However, increases in the number of classes for each individual command.
 
 - It defines 3 concepts:
     - **Sender**: The Sender class (aka invoker) is responsible for initiating requests. This class must have a field for storing a reference to a command object. The sender triggers that command instead of sending the request directly to the receiver. Note that the sender isn’t responsible for creating the command object. Usually, it gets a pre-created command from the client via the constructor.
