@@ -29,6 +29,8 @@
 - Use the Mediator pattern when it’s hard to change some of the classes because they are tightly coupled to a bunch of other classes.
 
 - Facade and Mediator have similar jobs: they try to organize collaboration between lots of tightly coupled classes.
+    - *Facade* defines a simplified interface to a subsystem of objects, but it doesn’t introduce any new functionality. The subsystem itself is unaware of the facade. Objects within the subsystem can communicate directly.   
+    - *Mediator* centralizes communication between components of the system. The components only know about the mediator object and don’t communicate directly.
 
 - *Single Responsibility Principle*
     - You can extract the communications between various components into a single place, making it easier to comprehend and maintain.
