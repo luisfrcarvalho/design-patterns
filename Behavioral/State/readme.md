@@ -24,9 +24,14 @@
 
 ![](diagram.png)
 
-- **Context**: Context stores a reference to one of the concrete state objects and delegates to it all state-specific work. The context communicates with the state object via the state interface. The context exposes a setter for passing it a new state object.
-- **State**: The State abstract class declares the state-specific methods. These methods should make sense for all concrete states because you don’t want some of your states to have useless methods that will never be called. We can use an interface, in case we do not have any common code to share between the concrete states.
-- **ConcreteSate**: Provide their own implementations for the state-specific methods. To avoid duplication of similar code across multiple states, you may provide intermediate abstract classes that encapsulate some common behavior.
+- **Context**
+    - Context stores a reference to one of the concrete state objects and delegates to it all state-specific work. The context communicates with the state object via the state interface. The context exposes a setter for passing it a new state object.
+
+- **State**
+    - The State abstract class declares the state-specific methods. These methods should make sense for all concrete states because you don’t want some of your states to have useless methods that will never be called. We can use an interface, in case we do not have any common code to share between the concrete states.
+
+- **ConcreteSate**
+    - Provide their own implementations for the state-specific methods. To avoid duplication of similar code across multiple states, you may provide intermediate abstract classes that encapsulate some common behavior.
 
 
 # Notes

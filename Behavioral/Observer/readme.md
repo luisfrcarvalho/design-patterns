@@ -19,9 +19,11 @@
 
 ![](diagram.png)
 
-- **Subject**: The Subject, also know as Publisher, issues events of interest to other objects. These events occur when the subject changes its state or executes some behaviors. Subjects contain a subscription infrastructure that lets new subscribers join and current subscribers leave the list.
+- **Subject**
+    - The Subject, also know as Publisher, issues events of interest to other objects. These events occur when the subject changes its state or executes some behaviors. Subjects contain a subscription infrastructure that lets new subscribers join and current subscribers leave the list.
 
-- **Observer**: The Observer, also know as Subscriber, interface declares the notification interface. In most cases, it consists of a single update method. The method may have several parameters that let the publisher pass some event details along with the update.
+- **Observer**
+    - The Observer, also know as Subscriber, interface declares the notification interface. In most cases, it consists of a single update method. The method may have several parameters that let the publisher pass some event details along with the update.
 
 
 # Notes
