@@ -14,10 +14,14 @@
 
 ![](diagram.png)
 
-- **Iterator**: The Iterator interface declares the operations required for traversing a collection: fetching the next element, retrieving the current position, restarting iteration, etc.
-- **Aggregate**: The Aggregate declares one or multiple methods for getting iterators compatible with the collection. Note that the return type of the methods must be declared as the iterator interface so that the concrete collections can return various kinds of iterators.
-- **ConcreteIterator**: Implement specific algorithms for traversing a collection. 
-- **ConcreteAggregate**: Returns new instances of particular concrete iterator class each time the client requests one.
+- **Iterator**
+    - The Iterator interface declares the operations required for traversing a collection: fetching the next element, retrieving the current position, restarting iteration, etc.
+- **Aggregate**
+    - The Aggregate declares one or multiple methods for getting iterators compatible with the collection. Note that the return type of the methods must be declared as the iterator interface so that the concrete collections can return various kinds of iterators.
+- **ConcreteIterator**
+    - Implement specific algorithms for traversing a collection. 
+- **ConcreteAggregate**
+    - Returns new instances of particular concrete iterator class each time the client requests one.
 
 
 # Notes

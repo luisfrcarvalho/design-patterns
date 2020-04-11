@@ -1,6 +1,6 @@
 ﻿namespace Mediator
 {
-    public class Component
+    public abstract class Component
     {
         protected readonly Mediator Mediator;
 
